@@ -7,12 +7,6 @@
         <h1>{{title}}</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda eius facere harum ipsa iste maxime reiciendis sunt tempora, voluptates!</p>
         <button class="btn btn-warning">На страницу про нос</button>
-        {% for el in values %}
-            {% if el == 'hello' %}
-                {% filter upper %}
-                    {{el|upper}}
-                {% endfilter %}
-            {% endif %}
-        {% endfor %}
+        
     </div>
 {% endblock %}
